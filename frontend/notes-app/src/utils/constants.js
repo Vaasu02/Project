@@ -1,1 +1,1 @@
-export const BASE_URL='https://notes-uj31.onrender.com'
+export const BASE_URL='http://0.0.0.0:0'
