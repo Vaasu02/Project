@@ -314,7 +314,9 @@ app.get("/search-notes/",authenticatetoken,async(req,res)=>{
 
 })
 
-app.listen(8080, () => {
+const port=8080 || process.env.PORT;
+
+app.listen(port, () => {
   console.log("Server is running on port 8080");
 });
 
