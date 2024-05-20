@@ -7,17 +7,14 @@ import Front from './components/Frontpage/Front';
 
 
 const routes=(
-  // <Router>
-  //   <Routes>
-  //     <Route path='/' exact element={<Front/>}/>
-  //     <Route path='/dashboard' exact element={<Home/>}/>
-  //     <Route path='/login' exact element={<Login/>}/>
-  //     <Route path='/signup' exact element={<SignUp/>}/>
-  //   </Routes>
-  // </Router>
-  <h1>
-    hiiii
-  </h1>
+  <Router>
+    <Routes>
+      <Route path='/' exact element={<Front/>}/>
+      <Route path='/dashboard' exact element={<Home/>}/>
+      <Route path='/login' exact element={<Login/>}/>
+      <Route path='/signup' exact element={<SignUp/>}/>
+    </Routes>
+  </Router>
 )
 
 

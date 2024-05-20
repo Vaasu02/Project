@@ -3,7 +3,8 @@ import {BASE_URL} from './constants'
 
 const axiosInstance=axios.create({
     baseURL:BASE_URL,//The base URL for all requests made with this instance
-    timeout:70000,//! The maximum time (in milliseconds) to wait for a response before aborting the request, set to 10 seconds (10000 milliseconds).
+    timeout:70000,
+    //! The maximum time (in milliseconds) to wait for a response before aborting the request, set to 10 seconds (10000 milliseconds).
     headers:{//Default headers to be sent with every request, setting the 
         'Content-Type':'application/json',
         
